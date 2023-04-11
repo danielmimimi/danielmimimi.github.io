@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: 3D TOF
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
