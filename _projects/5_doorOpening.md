@@ -1,9 +1,9 @@
 ---
 layout: page
-title: 3D TOF
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
+title: door opening
+description: A computer vision attempt to open an automatic door
+img: assets/img/1.jpg
+importance: 3
 category: work
 ---
 
