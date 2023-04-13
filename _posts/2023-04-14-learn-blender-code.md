@@ -35,3 +35,9 @@ code code code
 
 > > > bpy.data.objects['Barrel']
 > > > bpy.data.objects['Barrel']
+
+# https://federicoarenasl.github.io/Data-Generation-with-Blender/
+
+# Access and modify information of objects
+
+> > > bpy.data.objects['Camera.001'].rotation_euler[0] = 0
