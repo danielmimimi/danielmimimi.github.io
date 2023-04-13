@@ -11,12 +11,10 @@ related_posts: false
 This post is just a reminder of basic bpy (blender python) functions
 and how to use them.
 
-````markdown
-```python
->>> bpy.data.scenes
->>> <bpy_collection[1], BlendDataScenes>
+```markdown
+> > > bpy.data.scenes
+> > > <bpy_collection[1], BlendDataScenes>
 ```
-````
 
 <div class="post_img_23-04-14">
     {% include figure.html path="assets/img/post_20230414_scene.PNG" class="img-fluid rounded z-depth-1" zoomable=true %}
