@@ -16,8 +16,13 @@ and how to use them.
 > > > <bpy_collection[1], BlendDataScenes>
 ```
 
-<div class="post_img_23-04-14">
-    {% include figure.html path="assets/img/post_20230414_scene.PNG" class="img-fluid rounded z-depth-1" zoomable=true %}
+<div class="row mt-3">
+    <div class="post_img_23-04-14">
+        {% include figure.html path="assets/img/post_20230414_scene.PNG" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Blender Test Scene
 </div>
 
 # Access the scenes
