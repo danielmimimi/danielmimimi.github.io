@@ -1,12 +1,15 @@
 ---
 layout: post
-title: a post with giscus comments
-date: 2022-12-10 11:59:00-0400
+title: a post about the blender python api
+date: 2023-04-13 11:59:00-0400
 description: an example of a blog post with giscus comments
 categories: sample-posts external-services
 giscus_comments: true
 related_posts: false
 ---
+
+This post is just a reminder of basic bpy (blender python) functions
+and how to use them.
 
 ````markdown
 ```c++
@@ -25,5 +28,10 @@ code code code
 
 # Access the objects in a Scene
 
-> > > bpy.data.scenes[0]
-> > > bpy.data.scenes['Scene']
+> > > bpy.data.objects
+> > > <bpy_collection[5], BlendDataObjects>
+
+## Access objects by name (check image)
+
+> > > bpy.data.objects['Barrel']
+> > > bpy.data.objects['Barrel']
