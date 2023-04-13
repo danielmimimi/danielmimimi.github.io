@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with giscus comments | Daniel  Klauser</title>
+    <title>a post about the blender python api | Daniel  Klauser</title>
     <meta name="author" content="Daniel  Klauser">
     <meta name="description" content="an example of a blog post with giscus comments">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://danielmimimi.github.io/blog/2022/learn-blender-code/">
+    <link rel="canonical" href="https://danielmimimi.github.io/blog/2023/learn-blender-code/">
     
     <!-- Dark Mode -->
     
@@ -71,10 +71,6 @@
                 <a class="nav-link" href="/">about</a>
               </li>
               
-              <!-- Blog -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/blog/">blog<span class="sr-only">(current)</span></a>
-              </li>
 
               <!-- Other pages -->
               <li class="nav-item ">
@@ -112,10 +108,10 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">a post with giscus comments</h1>
-    <p class="post-meta">December 10, 2022</p>
+    <h1 class="post-title">a post about the blender python api</h1>
+    <p class="post-meta">April 13, 2023</p>
     <p class="post-tags">
-      <a href="/blog/2022"> <i class="fas fa-calendar fa-sm"></i> 2022 </a>
+      <a href="/blog/2023"> <i class="fas fa-calendar fa-sm"></i> 2023 </a>
         ·  
         <a href="/blog/category/sample-posts">
           <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
@@ -127,7 +123,10 @@
   </header>
 
   <article class="post-content">
-    <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">c++
+    <p>This post is just a reminder of basic bpy (blender python) functions
+and how to use them.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">c++
 </span><span class="n">code</span> <span class="n">code</span> <span class="n">code</span>
 <span class="p">```</span>
 </code></pre></div></div>
@@ -167,8 +166,19 @@
 <blockquote>
   <blockquote>
     <blockquote>
-      <p>bpy.data.scenes[0]
-bpy.data.scenes[‘Scene’]</p>
+      <p>bpy.data.objects
+&lt;bpy_collection[5], BlendDataObjects&gt;</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<h2 id="access-objects-by-name-check-image">Access objects by name (check image)</h2>
+
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <p>bpy.data.objects[‘Barrel’]
+bpy.data.objects[‘Barrel’]</p>
     </blockquote>
   </blockquote>
 </blockquote>
