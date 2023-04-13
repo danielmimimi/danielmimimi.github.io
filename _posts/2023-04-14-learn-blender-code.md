@@ -11,11 +11,6 @@ related_posts: false
 This post is just a reminder of basic bpy (blender python) functions
 and how to use them.
 
-```markdown
-> > > bpy.data.scenes
-> > > <bpy_collection[1], BlendDataScenes>
-```
-
 <div class="row mt-3">
     <div class="post_img_23-04-14">
         {% include figure.html path="assets/img/post_20230414_scene.PNG" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -27,18 +22,28 @@ and how to use them.
 
 # Access the scenes
 
+```markdown
+> > > bpy.data.scenes
+> > > <bpy_collection[1], BlendDataScenes>
+```
+
 # Access the objects in a Scene
 
+```markdown
 > > > bpy.data.objects
 > > > <bpy_collection[5], BlendDataObjects>
+```
 
 ## Access objects by name (check image)
 
+```markdown
 > > > bpy.data.objects['Barrel']
-> > > bpy.data.objects['Barrel']
+```
 
 # https://federicoarenasl.github.io/Data-Generation-with-Blender/
 
 # Access and modify information of objects
 
+```markdown
 > > > bpy.data.objects['Camera.001'].rotation_euler[0] = 0
+```
